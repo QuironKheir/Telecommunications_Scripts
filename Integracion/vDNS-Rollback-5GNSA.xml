@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE data PUBLIC "-//BlueCat Networks/Proteus Migration Specification 9.1//EN" "http://www.bluecatnetworks.com/proteus-migration-9.1.dtd">
+<data>
+<configuration name="Claro-Peru" disable-dns-option-inheritance="false">
+<view name="default">
+<zone name="epc.mnc010.mcc716.3gppnetwork.org"  deployable="true">
+<naptr name="TAC-LBA9.TAC-HBC5.TAC" order="1" preference="999" service="x-3gpp-sgw:x-s11+nc-nr:x-s5-gtp+nc-nr:x-s8-gtp+nc-nr" replacement="topon.s11.arq.spgw01c.epc.mnc010.mcc716.3gppnetwork.org." flags="A" on-exist="delete"/>
+<naptr name="TAC-LBA9.TAC-HBC5.TAC" order="10" preference="999" service="x-3gpp-sgw:x-s11+nc-nr:x-s5-gtp+nc-nr:x-s8-gtp+nc-nr" replacement="topon.s11.lim.spgw02c.epc.mnc010.mcc716.3gppnetwork.org." flags="A" on-exist="delete"/>
+</zone>
+</view>
+</configuration>
+</data>
